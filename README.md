@@ -139,3 +139,5 @@
    - 以及所有为此项目提供pr的同学
 #### 更新日志
    - [更新日志](Update.md)
+#### 配置
+git remote set-url origin git@gitserver.com:user/repo_name.git
