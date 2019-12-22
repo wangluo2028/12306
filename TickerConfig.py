@@ -9,7 +9,7 @@ TICKET_TYPE = 1
 
 # 出发日期(list) "2018-01-06", "2018-01-07"
 STATION_DATES = [
-    "2020-01-18"
+    "2020-01-22"
 ]
 
 # 填入需要购买的车次(list)，"G1353"
@@ -18,10 +18,10 @@ STATION_DATES = [
 STATION_TRAINS = []
 
 # 出发城市，比如深圳北，就填深圳就搜得到
-FROM_STATION = "广州南"
+FROM_STATION = "上海虹桥"
 
 # 到达城市 比如深圳北，就填深圳就搜得到
-TO_STATION = "隆回"
+TO_STATION = "南昌西"
 
 # 座位(list) 多个座位ex:
 # "商务座",
@@ -81,8 +81,8 @@ HTTP_TYPE = "http"
 #  host: "smtp.qq.com"
 EMAIL_CONF = {
     "IS_MAIL": True,
-    "email": "",
-    "notice_email_list": "",
+    "email": "494290839@qq.com",
+    "notice_email_list": "wangluo2028@163.com",
     "username": "",
     "password": "",
     "host": "smtp.qq.com",
